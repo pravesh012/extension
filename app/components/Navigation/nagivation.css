@@ -1,0 +1,36 @@
+.nagivation-footer{
+    box-sizing: border-box;
+    padding: 8px 0.7em 0 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+.nagivation-footer div{
+    color: grey;
+    
+    
+}
+
+.nagivation-icons-edits{
+    margin-left: 0.8em;
+}
+.nagivation-icons-edits-2{
+    margin-left: 0.5em;
+}
+.nagivation-footer div p{
+    font-size: 10px;
+    margin-top: 2px;
+    color: white;
+}
+.nagivation-footer div:hover{
+    color: gold;
+}
+.edit-container{
+    color: gold;
+}
+.nagivation-footer div p{
+    color: white;
+}

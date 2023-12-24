@@ -1,0 +1,26 @@
+.header-container-of-Alarms{
+    
+    height: 2.5em;
+    display: flex;
+    justify-content:space-between;
+}
+.header-container-of-Alarms p{
+    font-size: 14px;
+    margin-left: 0.6em;
+}
+.container-of-plus{
+    display: flex;
+    margin-right: 0.6em;
+    color: gold;
+    align-items: center;
+}
+.header-container-of-Alarms p:hover{
+    color:grey;
+}
+.container-of-plus:hover{
+    color:grey;
+
+}
+#show-user-clicked{
+    color: white;
+}
