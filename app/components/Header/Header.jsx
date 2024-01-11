@@ -20,14 +20,17 @@ export default function Header(){
             )
         }
     }
-    function handleHeaderClicked(events: any ){
+
+    function handleHeaderClicked(events ){
         const eventTarget = events.target;
         if(eventTarget.innerText === 'Edits'){
             // when edits clicked
+
             updateHeaderState({clicked: eventTarget})
         }
         else{
             // plus clicked
+            
             updateHeaderState({clicked: eventState})
         }
     }
@@ -38,7 +41,7 @@ export default function Header(){
                 <p>Edits</p>
             </div>
             
-            <div >
+            <div onClick={handleHeaderClicked} >
                 <p id = 'show-user-clicked'>{ eventState.classClicked } </p>
             </div>
 

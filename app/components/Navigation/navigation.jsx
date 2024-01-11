@@ -9,15 +9,14 @@ export default function Nagivation(){
     const {updateEventState} = ContextWrapper();
   
      function nagivationHandler(events ){
-        console.log('clicked')
+        
         const eventTarget = events.target;
-        console.log(eventTarget)
         const value = eventTarget.parentNode.classList;
         const localName = eventTarget.localName;
         
         const typeofClass = new Map(
             [
-                ['fa-clock', 'World Clock'],
+                ['fa-clock', 'WorldClock'],
                 ['fa-bell', 'Alarms'],
                 ['fa-stopwatch', 'StopWatch'],
                 ['fa-hourglass', 'Timers'],
@@ -53,7 +52,6 @@ export default function Nagivation(){
                 itemClicked.classClicked = eventTarget.innerText;
             }
             else{
-                console.log(true, 'on div')
                 itemClicked.classClicked = typeofClass.get(eventTarget.classList[0]);
             }
     

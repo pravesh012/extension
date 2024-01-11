@@ -1,0 +1,36 @@
+
+.Timer_StopWatch_container{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+.btn-stop_start{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em 0px 1em;
+    
+
+}
+.btn-stop_start button{
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+}
+.btn-stop_start button:nth-child(1){
+    color: rgb(204, 204, 204);
+    background-color: grey;
+    
+}
+.btn-stop_start button:nth-child(2){
+    background-color: rgb(68, 160, 68);
+    color: rgb(9, 238, 9);
+}
+.Timer_StopWatch_container p{
+    color: white;
+    font-size: 2em;
+}
+.laps-container{
+    border-bottom: 1px solid grey;
+    margin-top: 0.6em;
+}

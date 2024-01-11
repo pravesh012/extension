@@ -1,5 +1,14 @@
 .body-container-of-alarms{
-    
+    position: relative;
+    background:white;
     height: 320px;
-    border: 1px solid red;
+    
+}
+.WorldClock, .Alarms, .StopWatch, .Timers{
+    position: absolute;
+    width: 100%;
+    height: 320px;
+}
+.StopWatch{
+   background-color: black;
 }

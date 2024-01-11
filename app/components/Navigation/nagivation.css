@@ -5,8 +5,6 @@
     align-items: center;
     justify-content: space-between;
     
-    
-    
 }
 .nagivation-footer div{
     color: grey;
@@ -28,9 +26,7 @@
 .nagivation-footer div:hover{
     color: gold;
 }
+
 .edit-container{
     color: gold;
-}
-.nagivation-footer div p{
-    color: white;
 }
